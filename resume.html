@@ -22,7 +22,7 @@
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Start Bootstrap</span></a>
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Gorosito Parodi, Guido I</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
@@ -52,16 +52,21 @@
                             <div class="d-flex align-items-center justify-content-between mb-4">
                                 <h2 class="text-primary fw-bolder mb-0">Experience</h2>
                                 <!-- Download resume button-->
-                                <!-- Note: Set the link href target to a PDF file within your project-->
-                                <a class="btn btn-primary px-4 py-3" href="#!">
+                                <a class="btn btn-primary px-4 py-3" href="#" onclick="openDocuments()">
                                     <div class="d-inline-block bi bi-download me-2"></div>
-                                    Download Resume
+                                    Download Resume ES-EN
                                 </a>
+                                <script>
+                                function openDocuments() {
+                                    window.open('./doc/cv.pdf', '_blank');  // Abre cv.pdf en una nueva ventana
+                                    window.open('./doc/cv_en.pdf', '_blank');  // Abre cv_n.pdf en otra nueva ventana
+                                }
+                                </script>
                             </div>
                             <!-- Experience Card 1-->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
+                                    <div class="row align-items-center align-self-start gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div class="bg-light p-4 rounded-4">
                                                 <div class="text-primary fw-bolder mb-2">Present</div>
@@ -79,7 +84,7 @@
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                 <div class="row align-items-center gx-5">
-                                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="col text-center align-self-start text-lg-start mb-4 mb-lg-0">
                                     <div class="bg-light p-4 rounded-4">
                                         <div class="text-primary fw-bolder mb-2">2020 - 2021</div>
                                         <div class="small fw-bolder">Senior IT<br>Support Specialist</div>
@@ -98,7 +103,7 @@
                                     </div>
                                     <div class="col-lg-8">
                                     <div>
-                                        <p>Técnico Informático Junior</p>
+                                        <p>2010</p>
                                         <ul>
                                         <li>Instalación y Reparación de Software y Hardware en ordenadores</li>
                                         <li>Help Desk, Atención Telefónica y tareas administrativas</li>
@@ -106,7 +111,7 @@
                                         <li>Montaje de Ordenadores</li>
                                         <li>Cableado estructurado</li>
                                         </ul>
-                                        <p>Encargado del Sector Informática, semi-senior</p>
+                                        <p>2017</p>
                                         <ul>
                                         <li>Entrenamiento y capacitación de personal</li>
                                         <li>Coordinador del equipo de Help Desk, Mesa de Ayuda y técnicos</li>
@@ -114,7 +119,7 @@
                                         <li>Vmware (Monitoreo y Backup y virtualización)</li>
                                         <li>Automatización de las tareas del usuario con Python 3</li>
                                         </ul>
-                                        <p>2020 - Beginner Implementación de TI</p>
+                                        <p>2020</p>
                                         <ul>
                                         <li>Implementación de nuevas tecnologías:</li>
                                         <ul>
@@ -141,14 +146,14 @@
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div class="bg-light p-4 rounded-4">
-                                                <div class="text-secondary fw-bolder mb-2">2015 - 2017</div>
+                                                <div class="text-secondary fw-bolder mb-2">2022</div>
                                                 <div class="mb-2">
-                                                    <div class="small fw-bolder">Barnett College</div>
-                                                    <div class="small text-muted">Fairfield, NY</div>
+                                                    <div class="small fw-bolder">Machine Learning & Data Science</div>
+                                                    <div class="small text-muted">Udemy</div>
                                                 </div>
                                                 <div class="fst-italic">
-                                                    <div class="small text-muted">Master's</div>
-                                                    <div class="small text-muted">Web Development</div>
+                                                    <div class="small text-muted">Masterclass</div>
+                                                    <div class="small text-muted">Online</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -162,14 +167,119 @@
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div class="bg-light p-4 rounded-4">
-                                                <div class="text-secondary fw-bolder mb-2">2011 - 2015</div>
+                                                <div class="text-secondary fw-bolder mb-2">2021</div>
                                                 <div class="mb-2">
-                                                    <div class="small fw-bolder">ULA</div>
-                                                    <div class="small text-muted">Los Angeles, CA</div>
+                                                    <div class="small fw-bolder">Data science with Python</div>
+                                                    <div class="small text-muted">EDX - Anáhuac</div>
                                                 </div>
                                                 <div class="fst-italic">
-                                                    <div class="small text-muted">Undergraduate</div>
-                                                    <div class="small text-muted">Computer Science</div>
+                                                    <div class="small text-muted">asynchronous class</div>
+                                                    <div class="small text-muted">Online</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Education Card 3-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-secondary fw-bolder mb-2">2020</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">Advanced Python Diploma</div>
+                                                    <div class="small text-muted">Universidad Tecnológica Nacional Argentina</div>
+                                                </div>
+                                                <div class="fst-italic">
+                                                    <div class="small text-muted">Bs As, Argentina</div>
+                                                    <div class="small text-muted">Online</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Education Card 4-->
+                            <!-- <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-secondary fw-bolder mb-2">-A</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">Universidad Tecnológica Nacional Argentina</div>
+                                                    <div class="small text-muted">Buenos Aires, Argentina</div>
+                                                </div>
+                                                <div class="fst-italic">
+                                                    <div class="small text-muted">Technical</div>
+                                                    <div class="small text-muted">Computer technician</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- Education Card 5-->
+                            <!-- <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-secondary fw-bolder mb-2">-b</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">Universidad Tecnológica Nacional Argentina</div>
+                                                    <div class="small text-muted">Buenos Aires, Argentina</div>
+                                                </div>
+                                                <div class="fst-italic">
+                                                    <div class="small text-muted">Technical</div>
+                                                    <div class="small text-muted">Computer technician</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- Education Card 6-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-secondary fw-bolder mb-2">2010</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">Computer technician</div>
+                                                    <div class="small text-muted">Universidad Tecnológica Nacional Argentina</div>
+                                                </div>
+                                                <div class="fst-italic">
+                                                    <div class="small text-muted">Bs As, Argentina</div>
+                                                    <div class="small text-muted">Presential</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Education Card 7-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-secondary fw-bolder mb-2">2008</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">Inst. La Salle</div>
+                                                    <div class="small text-muted">Gran Buenos Aires, Arg</div>
+                                                </div>
+                                                <div class="fst-italic">
+                                                    <div class="small text-muted">Formación Profesional</div>
+                                                    <div class="small text-muted">Técnico Electromecánico</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -192,14 +302,14 @@
                                             <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional Skills</span></h3>
                                         </div>
                                         <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">SEO/SEM Marketing</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Backend Development</div></div>
                                             <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Statistical Analysis</div></div>
                                             <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development</div></div>
                                         </div>
                                         <div class="row row-cols-1 row-cols-md-3">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Network Security</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Adobe Software Suite</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">User Interface Design</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Clean code</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Interpersonal Skill</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">DB Friendly</div></div>
                                         </div>
                                     </div>
                                     <!-- Languages list-->
@@ -209,18 +319,78 @@
                                             <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Languages</span></h3>
                                         </div>
                                         <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">SQL</div></div>
                                             <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
                                         </div>
                                         <div class="row row-cols-1 row-cols-md-3">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Ruby</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">XML</div></div>
+                                        </div>
+                                    </div>
+                                    <!-- Tools list-->
+                                    <div class="mb-0">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-body-text"></i></div>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Tools</span></h3>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Github</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Pandas</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Docker-compose</div></div>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3">
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Matplotlib</div></div>
+                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Seaborn</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Bootstrap</div></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </section>
+                        <!-- Card Section -->
+                        <!-- <section>
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5"> -->
+                                    <!-- Professional skills Grapth-->
+                                    <!-- <div class="mb-5">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-graph-up-arrow"></i></div>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Never Stop</span></h3>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4"> -->
+                                            <!-- Pie Chart -->
+                                            <!-- <div class="col-xl col-lg-5">
+                                                <div class="card shadow mb-4"> -->
+                                                    <!-- Card Header - Dropdown -->
+                                                    <!-- <div
+                                                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                                        <h6 class="m-0 font-weight-bold text-primary">My Data</h6>
+                                                    </div> -->
+                                                    <!-- Card Body -->
+                                                    <!-- <div class="card-body">
+                                                        <div class="chart-pie pt-4 pb-2">
+                                                            <canvas id="myPieChart"></canvas>
+                                                        </div>
+                                                        <div class="mt-4 text-center small">
+                                                            <span class="mr-2">
+                                                                <i class="fas fa-circle text-primary"></i> Direct
+                                                            </span>
+                                                            <span class="mr-2">
+                                                                <i class="fas fa-circle text-success"></i> Social
+                                                            </span>
+                                                            <span class="mr-2">
+                                                                <i class="fas fa-circle text-info"></i> Referral
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
                         </section>
                     </div>
                 </div>
